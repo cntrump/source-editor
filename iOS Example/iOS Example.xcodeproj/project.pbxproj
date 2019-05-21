@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		BE44E42B21086C6800EA7BBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE44E42A21086C6800EA7BBD /* AppDelegate.swift */; };
 		BE44E42D21086C6800EA7BBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE44E42C21086C6800EA7BBD /* ViewController.swift */; };
-		BE44E43021086C6800EA7BBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE44E42E21086C6800EA7BBD /* Main.storyboard */; };
 		BE44E43221086C6900EA7BBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE44E43121086C6900EA7BBD /* Assets.xcassets */; };
 		BE44E43521086C6900EA7BBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE44E43321086C6900EA7BBD /* LaunchScreen.storyboard */; };
 		BE44E43D21086DB000EA7BBD /* SavannaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE44E43C21086DB000EA7BBD /* SavannaKit.framework */; };
@@ -37,7 +36,6 @@
 		BE44E42721086C6800EA7BBD /* iOS Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE44E42A21086C6800EA7BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE44E42C21086C6800EA7BBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BE44E42F21086C6800EA7BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE44E43121086C6900EA7BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE44E43421086C6900EA7BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE44E43621086C6900EA7BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 			children = (
 				BE44E42A21086C6800EA7BBD /* AppDelegate.swift */,
 				BE44E42C21086C6800EA7BBD /* ViewController.swift */,
-				BE44E42E21086C6800EA7BBD /* Main.storyboard */,
 				BE44E43121086C6900EA7BBD /* Assets.xcassets */,
 				BE44E43321086C6900EA7BBD /* LaunchScreen.storyboard */,
 				BE44E43621086C6900EA7BBD /* Info.plist */,
@@ -150,7 +147,6 @@
 			files = (
 				BE44E43521086C6900EA7BBD /* LaunchScreen.storyboard in Resources */,
 				BE44E43221086C6900EA7BBD /* Assets.xcassets in Resources */,
-				BE44E43021086C6800EA7BBD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,14 +165,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BE44E42E21086C6800EA7BBD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE44E42F21086C6800EA7BBD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BE44E43321086C6900EA7BBD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -239,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -293,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -307,7 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6G5LMQ72D8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "iOS Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -315,7 +303,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "be.silverfox.iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -325,7 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6G5LMQ72D8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "iOS Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -333,7 +321,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "be.silverfox.iOS-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
